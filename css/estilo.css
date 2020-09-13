@@ -1,0 +1,141 @@
+html, body{
+    margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+.justificado{
+    justify-content: center;
+}
+body{
+    width: 100%;
+    background-image: url(../b_imagens/fundo-verde.png);
+}
+/*Inicio menu*/
+#menu-principal{
+    height:105px;
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100%;
+   
+}
+.list-menu{
+    margin-top: 2% ; margin-right: 4%; margin-bottom:2% ;
+    float: right;
+    position: fixed;
+    left: 70%;
+    list-style: none;
+    width: 100%;
+   
+    
+    display: flex;
+}
+.list-menu a{
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
+}
+  
+.list-menu a:hover{
+    transition: 0.3s;
+    background: aquamarine;
+    padding:42px 10px 46px 10px;
+    color: black;
+    
+}
+#menu-principal img{
+    
+    display: flex;
+    float: left;
+    position: fixed;
+    right: 50%;
+
+}
+.capa img{
+    width: 100%;
+}
+/*Fim menu*/
+
+/*Inicio capa*/
+.capa{
+    background-image:url(../b_imagens/rio-morro.jpg);
+    min-height: 100vh;
+    background-size: cover;
+
+    color: rgb(255, 255, 108);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.capa h1{
+    font-size: 40px;
+    max-width: 500px;
+    text-shadow: 5px 1px 5px black;
+    margin-bottom: 0;
+    
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 1px solid black;
+    text-align: center;
+    text-shadow: 5px 1px 5px black;
+}
+/*Fim capa*/
+
+/*Inicio da introdução*/
+#pobreza1{
+   
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+
+
+}
+#pobreza1 h2{
+    font-size: 35px;
+    
+}
+#pobreza img{
+    float: left;
+    display: flex;
+}
+.oquee{
+ display: flex;
+ float: left;
+ text-align: center;
+justify-content: center;
+
+}
+.oquee figure{
+    margin-top: 10px;
+    
+}
+.motivos{
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    max-height: 500px;
+    display: block;
+    float: right;
+    margin: 0 3%;
+    
+}
+.motivos h2{
+    margin: 10px 20px;
+    
+}
+.clear{
+    clear: both;
+}
+/*Fim da introdução*/
